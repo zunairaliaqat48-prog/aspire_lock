@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon for Android 8.0+ (API 26+). Without this, every OEM
+  launcher falls back to the flat mipmap/ic_launcher PNG and applies
+  its own crop/mask to it — on launchers that mask icons into a circle
+  or squircle, that ended up clipping the outer edge of the rounded
+  card in ic_launcher.png inconsistently across devices.
+
+  Splitting into two layers lets each launcher apply its own mask
+  shape cleanly: a solid background color plus a foreground (the
+  rings/lock motif only, already sized within the safe zone so it's
+  never clipped) that together reproduce the same look as the legacy
+  icon everywhere.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+</adaptive-icon>

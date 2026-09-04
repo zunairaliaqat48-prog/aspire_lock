@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches AppColors.primary in lib/constants/app_colors.dart -->
+    <color name="blockOverlayBackground">#1A1A1D</color>
+    <!-- Background layer for the adaptive launcher icon and the
+         splash screen — same brand charcoal as blockOverlayBackground
+         above, kept as a separate name since it serves a different
+         purpose (see mipmap-anydpi-v26/ic_launcher.xml and
+         drawable/launch_background.xml). -->
+    <color name="ic_launcher_background">#1A1A1D</color>
+</resources>

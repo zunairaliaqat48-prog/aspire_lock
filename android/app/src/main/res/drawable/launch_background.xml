@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Branded splash screen: solid brand-dark background with the
+     Aspire Lock rings/lock motif centered. Both this file and the
+     drawable-v21 variant below need to match, since v21+ devices use
+     that one instead. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background" />
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launch_logo" />
+    </item>
+</layer-list>
